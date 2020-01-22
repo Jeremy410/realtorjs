@@ -1,0 +1,33 @@
+{
+  "name": "realtorjs",
+  "version": "1.0.0",
+  "description": "API for commons real estate behaviors",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start" : "nodemon app.js"
+  },
+  "keywords": [
+    "realtor",
+    "realestate",
+    "json",
+    "rest",
+    "restful"
+  ],
+  "author": "Jeremy López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jlopez426/yuppy-backend/issues"
+  },
+  "homepage": "https://gitlab.com/jlopez426/yuppy-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.10",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
